@@ -1,12 +1,12 @@
-package services
+package interview.services
 
-class Komoot: Services {
-    private val routeString: String = "SRT, Welsh Mountain, Oaks to Philly"
+class Strava: Services {
+    private val routeString: String = "SRT, CVT, Perkiomen"
     private val routes: ArrayList<String>
 
     override fun getRoutes(userId: Int?): ArrayList<String> {
         val userString = userId?.toString() ?: ""
-        return ArrayList( routes.map { "$userString$it$userString" })
+        return ArrayList( routes.map { "$userString$it" })
     }
 
     init {

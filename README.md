@@ -53,4 +53,19 @@ return the user's routes for only the services listed.
 
 ## Building/Running
 
-TODO: please provide instructions to build and run your program(s) along with any require tools an dependencies.
+#### Prerequisites
+1. Java
+1. Kotlin
+1. Gradle
+
+#### Build
+`./gradlew build`
+
+#### Run Application
+1. `./gradlew run`
+1. After the build the executable can be found in the zip file: `./build/distributions/interview.zip` at `./interview/bin/interview`
+
+#### Execute Tests
+1. To run tests: `./gradlew test`
+1. Force tests to rerun with: `./gradlew test --rerun-tasks`
+1. Veiw html report of tests: `/build/reports/tests/test/index.html`

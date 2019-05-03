@@ -1,5 +1,7 @@
+package interview.services
+
 import org.junit.jupiter.api.Test
-import services.RouteAggr
+import interview.services.RouteAggr
 import kotlin.test.assertTrue
 
 class RouteAggrTest {

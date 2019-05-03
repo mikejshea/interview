@@ -1,7 +1,8 @@
-package services
+package interview.services
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
+import interview.services.Rwgps
 
 class RwpgsTest {
     @Test

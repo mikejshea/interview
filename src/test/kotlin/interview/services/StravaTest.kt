@@ -1,5 +1,7 @@
+package interview.services
+
 import org.junit.jupiter.api.Test
-import services.Strava
+import interview.services.Strava
 import kotlin.test.assertEquals
 
 class StravaTest {
